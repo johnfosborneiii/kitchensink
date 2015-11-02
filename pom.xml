@@ -152,6 +152,9 @@
       <id>josborneNexus</id>
       <name>Central Repository</name>
       <url>http://josborneFedora:8081/nexus/content/groups/public</url>
+       <snapshots>
+        <enabled>false</enabled>
+    </snapshots>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -159,6 +162,9 @@
       <id>josborneNexus</id>
       <name>Central Repository</name>
       <url>http://josborneFedora:8081/nexus/content/groups/public/</url>
+       <snapshots>
+        <enabled>false</enabled>
+    </snapshots>
     </pluginRepository>
   </pluginRepositories>
 
