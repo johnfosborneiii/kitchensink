@@ -147,6 +147,20 @@
       </dependency>
 
    </dependencies>
+<repositories>
+    <repository>
+      <id>josborneNexus</id>
+      <name>Central Repository</name>
+      <url>http://josborneFedora:8081/nexus/content/groups/public</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>josborneNexus</id>
+      <name>Central Repository</name>
+      <url>http://josborneFedora:8081/nexus/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
 
    <build>
       <!-- Maven will append the version to the finalName (which is the name 
